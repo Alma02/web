@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <meta charset="utf-8">
+		<title>Programación Web</title>
+	</head>
+  <body>
+
+<div data-role="page" id="pageone">
+  <div data-role="panel" id="myPanel"> 
+    <h2>Buscar</h2>
+    <ul id="mylistview" data-role="listview" data-inset="true" data-autodividers="true" data-filter="true" data-filter-placeholder="Qué animal buscas?">      
+      <li><a href="#pagetwo"><img src="images/delfin.jpg" width="100" height="100"/><h3>Delfines</h3><p>mamíferos acuáticos que habitan en casi todos los mares del planeta</p></a></li>
+      <li><a href="#pagethree"><img src="images/ballena.jpg" width="100" height="100"/><h3>Ballenas</h3><p>son una de las criaturas más sorprendentes que viven en el planeta</p></a></li>     
+      <li><a href="#pagefour"><img src="images/tortuga.jpg" width="100" height="100"/><h3>Tortugas</h3><p>Son reptiles de sangre fría y habitan en todos los océanos tropicales.</p></p></a></li>
+    </ul>
+  </div> 
+  <div data-role="header">
+    <h1>Blog del Mundo Marino</h1>  
+    <a href="#myPanel" class="ui-btn ui-corner-all ui-shadow ui-icon-search ui-btn-icon-left">Buscar</a>  
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>El agua es uno de los grandes condicionantes de la naturaleza, no sólo por su necesaria presencia sino también porque modifica la topografía o irriga y distribuye nutrientes. En las zonas frías el agua agranda año a año las grietas, arranca piedras y causa delizamientos producto de su congelamiento y dilatación; cuando hay nieve y avalanchas, el enorme peso es capaz de hacer desprender grandes rocas y de arrastrarlas hasta los valles.
+	  </p>
+    <img width="300" height="200" alt="" src="images/dos.jpg" /><br>
+    <a href="#pagetwo" data-transition="slide">Página Dos</a>
+  </div>
+  <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+</div> 
+
+
+<div data-role="page" id="pagetwo">
+  <div data-role="header">
+    <h1>Delfines</h1>
+    <a href="#pageone" class="ui-btn ui-icon-home ui-btn-icon-left">Inicio</a>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Los delfines son mamíferos acuáticos que habitan en casi todos los mares del planeta. Aunque viven en mar abierto, también hay momentos en los que se aproximan a la playa, pero sin llegar a la orilla. Como todos los mamíferos, ellos ,también necesitan mantener la temperatura de su cuerpo, para lo que tienen una ancha capa de grasa bajo su piel. Existen 32 especies de delfines, entre las que destacamos el delfín común, el delfín listado, el delfín mular y la orca; su cuerpo es alargado con una aleta dorsal y dos laterales que cambian de forma y tamaño según la especie, éstas aletas les sirven para controlar la dirección al nadar,además de para girar. Lo mismo pasa con el hocico,ya que de esta forma tendrá una forma más alargada u otra más redonda También cuentan con una cola aplanada horizontalmente que utilizan para desplazarse y a veces para mantenerse de pie sobre la superficie del mar. Sus dientes son de forma cónica y los utilizan para atrapar y desmenuzar los alimentos.
+    </p>
+    <img width="300" height="200" alt="" src="images/delfin.jpg" /><br>
+    <a href="#pagethree" data-transition="slide">Página Tres</a>
+  </div>
+  <div data-role="footer">
+    <h1>Footer Text 11</h1>
+  </div>
+</div> 
+
+
+<div data-role="page" id="pagethree">
+  <div data-role="header">
+    <h1>Ballenas</h1>
+    <a href="#pageone" class="ui-btn ui-icon-home ui-btn-icon-left">Inicio</a>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Las ballenas son una de las criaturas más sorprendentes que viven en el planeta, y habitan todos los océanos del mundo. Las ballenas dentadas se alimentan de peces y pequeños mamíferos. Las ballenas dentadas comen varios tipos de peces, como atún, bacalao, salmón entre otros, y algunos pequeños mamíferos como focas.</p>
+    <img width="300" height="200" alt="" src="images/ballena.jpg" /><br>
+    <a href="#pagefour" data-transition="slide">Página Cuatro</a>
+  </div>
+  <div data-role="footer">
+    <h1>Footer Text 11</h1>
+  </div>
+</div> 
+
+
+<div data-role="page" id="pagefour">
+  <div data-role="header">
+    <h1>Tortuga</h1>
+    <a href="#pageone" class="ui-btn ui-icon-home ui-btn-icon-left">Inicio</a>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>
+    Las tortugas marinas forman parte de los quelonioideos (Clasificación científica: familia Chelonioidea). Son reptiles de sangre fría y habitan en todos los océanos tropicales. Son exclusivamente marinas, pero tocan tierra solamente para anidar.
+    Las tortugas marinas pueden nadar a velocidades de 27 a 35 km/h. Su fuerte cuello está formado por ocho vértebras y no pueden meterla dentro del caparazón como las tortugas terrestres. No poseen dientes pero sí unos picos cortantes en la parte superior de su mandíbula. Sus oídos no se ven a simple vista, pues los tiene de manera interna y son muy eficientes. </p>
+    <img width="300" height="200" alt="" src="images/tortuga.jpg" /><br>
+    <a href="#pageone" data-transition="slide" data-direction="reverse">Página uno</a>
+  </div>
+  <div data-role="footer">
+    <h1>Footer Text 11</h1>
+  </div>
+</div> 
+
+</body>
+</html>
